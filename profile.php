@@ -75,7 +75,7 @@ if ($result1) {
                  
                   
                         <li>
-                            <a href="#" class="nav-link px-0 align-middle">
+                            <a href="./chat.php" class="nav-link px-0 align-middle">
                                 <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Chat</span> </a>
                         </li>
                     </ul>

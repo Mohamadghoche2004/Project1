@@ -67,7 +67,7 @@ include("./db_config/addpostaction.php");
                         </li>
                      
                         <li>
-                            <a href="#" class="nav-link px-0 align-middle">
+                            <a href="./chat.php" class="nav-link px-0 align-middle">
                                 <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Chat</span>
                             </a>
                         </li>
@@ -92,9 +92,9 @@ include("./db_config/addpostaction.php");
 
                 </div>
             </div>
-                <div class="col-9 col-md-9 col-lg-10 py-0 px-0">
+                <div class="col-9 col-md-9 col-lg-10 py-0 px-0 " ">
                     <section class="section5">
-                        <div class="container py-5 h-100">
+                        <div class="container py-5 h-100" style="background-color:transparent; border:0px;">
                             <div class="row d-flex justify-content-center align-items-center h-100">
                                 <div class="col-12 col-md-8 col-lg-6 col-xl-5">
                                     <div class="card bg-dark text-white" style="border-radius: 1rem;">
