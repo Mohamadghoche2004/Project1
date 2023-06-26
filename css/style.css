@@ -1,0 +1,196 @@
+*{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    
+
+}
+.h-custom {
+height: calc(100% - 70px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.nav-link,.navbar-brand{
+    color: white;
+    border-radius: 20%;
+}
+.sidebar{
+    position: fixed;
+}
+
+
+#log-img{
+    transition: 2s;
+    position: relative;
+    transform: translateX(1000px);
+
+}
+#homesection1{
+    
+margin: 0;
+background-image: url(../myimages/study18.jpeg);
+padding: 0;
+min-height: 100vh;
+max-height: 100vh;
+
+
+width: 100%;
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+#homesection2{
+    
+    margin: 0;
+
+    padding: 0;
+    min-height: 100vh;
+    max-height: 400vh;
+    
+    
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+    }
+ #homeheader{
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'EB Garamond', serif;
+    margin-top: 250px;
+    font-size: 50px;
+
+ }
+ #homeheader1{
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'EB Garamond', serif;
+   
+
+ }
+.side{
+    position: fixed;
+height: 10px;
+}
+
+.font{
+    font-family: 'EB Garamond', serif;
+}
+
+.card1:hover
+{
+    transition: 0.5s;
+    transform: scale(90%);
+    background-color:red;
+}
+
+
+.container1{
+    margin: 0%;
+    width: 100%;
+}
+.card3{
+    width: 100%;
+    margin: 0px;
+}
+
+.section5{
+    margin: 0;
+    background-image: url(../myimages/study18.jpeg);
+    padding: 0;
+    min-height: 100vh;
+    max-height: 100vh;
+    
+    
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+#homesection6{
+    
+    margin: 0;
+   
+    padding: 0;
+  
+    background-image: url(../myimages/study18.jpeg);
+   
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+;
+
+       
+  
+    
+    
+    }
+    .post-container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color:#263238;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    
+
+    .post-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .post-header img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .post-content {
+        margin-bottom: 20px;
+    }
+
+    .post-image {
+        max-width: 100%;
+        min-width: none;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .post-date {
+        font-size: 14px;
+        color: #888;
+    }
+
+    a{
+        text-decoration: none;
+        color:darkgrey
+    }
+
+
+
+    .chat-box{
+        background-color: black;
+        position: fixed;
+        
+    }
